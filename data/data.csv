@@ -1,0 +1,82 @@
+﻿sample_name,location,group,lat_long,age,genus,species,thermo,t_min,t_max,average,d18Op,sd,n,d18Ow_min,d18Ow_max,body_t_min,body_t_max,endo_meso_diff
+CMM-V-10742,"Sharktooth Hill Bonebed , California",miocene_california,"35N, 119W",Langhian,Carcharhinus,sp.,Ecto,14,19,16,23.54,0.34,3,1,2,15.99,20.04,
+CMM-V-10742,"Sharktooth Hill Bonebed , California",miocene_california,"35N, 119W",Langhian,Carcharhinus,sp.,Ecto,14,19,16,22.23,0.93,3,1,2,21.84,25.89,
+CMM-V-10743,"Sharktooth Hill Bonebed , California",miocene_california,"35N, 119W",Langhian,Physogaleus,sp.,Ecto,14,19,16,21.6,0.37,3,1,2,24.69,28.74,
+,California,miocene_california,"35N, 119W",Late Miocene,Odontoceti,Porpoise (ear bone),Endo,14,19,16,19.76,,1,1,2,32.96,37.01,11.09
+,California,miocene_california,"35N, 119W",Late Miocene,Odontoceti,Porpoise (ear bone),Endo,14,19,16,20.33,0.13,2,1,2,30.41,34.46,8.54
+,California,miocene_california,"35N, 119W",Late Miocene,Odontoceti,Porpoise (ear bone),Endo,14,19,16,19.36,0.27,3,1,2,34.76,38.81,12.9
+CMM-V-10740,"Sharktooth Hill Bonebed , California",miocene_california,"35N, 119W",Langhian,Isurus,planus,Meso,14,19,16,21.48,0.53,3,1,2,25.26,29.31,3.4
+CMM-V-10741,"Sharktooth Hill Bonebed , California",miocene_california,"35N, 119W",Langhian,Carcharodon,hastalis,Meso,14,19,16,21.85,0.29,2,1,2,23.55,27.6,1.69
+,California,miocene_california,"35N, 119W",Late Miocene,Carcharodon,carcharias,Meso,14,19,16,20.78,2.59,3,1,2,28.41,32.46,6.54
+SDSNH_143306,"Lawrence Canyon, California",miocene_california,"35N, 119W",Langhian,Otodus,megalodon,,14,19,16,21.4,0.54,3,1,2,25.62,29.67,3.75
+SDSNH_143306,"Lawrence Canyon, California",miocene_california,"35N, 119W",Langhian,Otodus,megalodon,,14,19,16,21.68,0.55,2,1,2,24.36,28.41,2.49
+CMM-V-11574,"Walbertsweiler, Germany",miocene_germany,"48N, 9E",Burdigalian,Pseudocarcharias,rigida,Ecto,15,26,19,22.6,0.14,3,1,2,20.2,22.45,
+CMM-V-11575,"Walbertsweiler, Germany",miocene_germany,"48N, 9E",Burdigalian,Pseudocarcharias,rigida,Ecto,15,26,19,23.4,0.15,3,1,2,16.6,18.85,
+CMM-V-11558,"Walbertsweiler, Germany",miocene_germany,"48N, 9E",Burdigalian,Mitsukurina,lineata,Ecto,15,26,19,22.8,0.54,3,1,2,19.3,21.55,
+CMM-V-11559,"Walbertsweiler, Germany",miocene_germany,"48N, 9E",Burdigalian,Mitsukurina,lineata,Ecto,15,26,19,23.2,0.44,3,1,2,17.5,19.75,
+CMM-V-11533,"Walbertsweiler, Germany",miocene_germany,"48N, 9E",Burdigalian,Galeocerdo,aduncus,Ecto,15,26,19,22.4,0.21,3,1,2,21.1,23.35,
+CMM-V-11541,"Walbertsweiler, Germany",miocene_germany,"48N, 9E",Burdigalian,Galeocerdo,aduncus,Ecto,15,26,19,22.5,0.39,3,1,2,20.65,22.9,
+CMM-V-11547,"Walbertsweiler, Germany",miocene_germany,"48N, 9E",Burdigalian,Hemipristis,serra,Ecto,15,26,19,22,0.13,3,1,2,22.9,25.15,
+CMM-V-11515,"Walbertsweiler, Germany",miocene_germany,"48N, 9E",Burdigalian,Araloselachus,cuspidatus,Ecto,15,26,19,21.5,0.16,3,1,2,25.15,27.4,
+CMM-V-11512,"Walbertsweiler, Germany",miocene_germany,"48N, 9E",Burdigalian,Araloselachus,cuspidatus,Ecto,15,26,19,22.6,0.33,3,1,2,20.2,22.45,
+CMM-V-11519,"Walbertsweiler, Germany",miocene_germany,"48N, 9E",Burdigalian,Carcharias,acutissimus,Ecto,15,26,19,22.3,0.37,3,1,2,21.55,23.8,
+CMM-V-11524,"Walbertsweiler, Germany",miocene_germany,"48N, 9E",Burdigalian,Carcharias,acutissimus,Ecto,15,26,19,22.8,0.2,3,1,2,19.3,21.55,
+CMM-V-11517,"Walbertsweiler, Germany",miocene_germany,"48N, 9E",Burdigalian,Carcharias,acutissimus,Ecto,15,26,19,22.2,0.48,2,1,2,22,24.25,
+CMM-V-11528,"Rengetsweiler, Germany",miocene_germany,"48N, 9E",Burdigalian,Carcharodon,hastalis,Meso,15,26,19,21.8,0.13,3,1,2,23.8,26.05,-1.56
+CMM-V-11526,"Walbertsweiler, Germany",miocene_germany,"48N, 9E",Burdigalian,Carcharodon,hastalis,Meso,15,26,19,21.79,0.34,2,1,2,23.8,26.05,-1.56
+CMM-V-11562,"Rengetsweiler, Germany",miocene_germany,"48N, 9E",Burdigalian,Otodus,chubutensis,,15,26,19,20.4,0.36,2,1,2,30.1,32.35,4.74
+CMM-V-11561,"Rengetsweiler, Germany",miocene_germany,"48N, 9E",Burdigalian,Otodus,chubutensis,,15,26,19,20.6,0.19,3,1,2,29.2,31.45,3.84
+CMM-V-11583,"Globigerina limestone, Gozo, Malta",miocene_italy,"37N, 14E",Burdigalian,Carcharhinus,sp.,Ecto,15,26,19,21.18,0.13,3,1,2,,,
+CMM-V-11581,"Globigerina limestone, Gozo, Malta",miocene_italy,"37N, 14E",Burdigalian,Carcharhinus,sp.,Ecto,15,26,19,20.74,0.23,3,1,2,,,
+CMM-V-11709,"Globigerina limestone, Gozo, Malta",miocene_italy,"37N, 14E",Burdigalian,Carcharias,acutissimus,Ecto,15,26,19,22.3,0.14,2,1,2,21.55,23.8,
+CMM-V-11707,"Globigerina limestone, Gozo, Malta",miocene_italy,"37N, 14E",Burdigalian,Carcharias,acutissimus,Ecto,15,26,19,22.9,0.53,3,1,2,18.85,21.1,
+CMM-V-11600,"Globigerina limestone, Gozo, Malta",miocene_italy,"37N, 14E",Burdigalian,Hemipristis,serra,Ecto,15,26,19,22.3,0.41,3,1,2,21.55,23.8,
+CMM-V-11585,"Globigerina limestone, Gozo, Malta",miocene_italy,"37N, 14E",Burdigalian,Carcharodon,hastalis,Meso,15,26,19,21.5,0.5,2,1,2,25.15,27.4,-2.88
+CMM-V-11601,"Globigerina limestone, Gozo, Malta",miocene_italy,"37N, 14E",Burdigalian,Otodus,chubutensis,,15,26,19,21,0.45,2,1,2,27.4,29.65,-0.63
+CMM-V-11606,"Globigerina limestone, Gozo, Malta",miocene_italy,"37N, 14E",Burdigalian,Otodus,chubutensis,,15,26,19,21.3,0.41,3,1,2,26.05,28.3,-1.98
+CMM-V-10962,"Iwadono Formation, Japan",miocene_japan,"36N, 139E",Langhian,Odontoceti,Dolphin (earbone),Endo,8,25,16,18.52,0.12,3,1,2,38.56,37.21,
+CMM-V-10838,"Iwadono Formation, Japan",miocene_japan,"36N, 139E",Langhian,Otodus,megalodon,,8,25,16,21.56,0.16,3,1,2,24.86,23.51,
+CMM-V-10977,"Na-arai Formation, Japan",pliocene_japan,"36N, 140E",Zanclean,Carcharias,sp.,Ecto,10,28,18,22.12,0.23,3,1,2,22.35,26.85,
+CMM-V-11034,"Na-arai Formation, Japan",pliocene_japan,"36N, 140E",Zanclean,Carcharhinus,sp.,Ecto,10,28,18,23.69,0.17,3,1,2,15.28,19.78,
+CMM-V-11010,"Na-arai Formation, Japan",pliocene_japan,"36N, 140E",Zanclean,Carcharodon,carcharias,Meso,10,28,18,21.32,0.79,3,1,2,25.94,30.44,7.99
+CMM-V-11011,"Na-arai Formation, Japan",pliocene_japan,"36N, 140E",Zanclean,Carcharodon,carcharias,Meso,10,28,18,21.62,0.55,3,1,2,24.62,29.12,6.67
+CMM-V-11012,"Na-arai Formation, Japan",pliocene_japan,"36N, 140E",Zanclean,Carcharodon,carcharias,Meso,10,28,18,21.25,0.55,3,1,2,26.26,30.76,8.31
+CMM-V-11013,"Na-arai Formation, Japan",pliocene_japan,"36N, 140E",Zanclean,Carcharodon,carcharias,Meso,10,28,18,23.04,0.51,2,1,2,18.22,22.72,0.27
+CMM-V-11014,"Na-arai Formation, Japan",pliocene_japan,"36N, 140E",Zanclean,Carcharodon,carcharias,Meso,10,28,18,20.71,,1,1,2,28.72,33.22,10.77
+CMM-V-10974,"Na-arai Formation, Japan",pliocene_japan,"36N, 140E",Zanclean,Otodus,megalodon,,10,28,18,21.47,0.25,2,1,2,25.3,23.95,1.5
+CMM-V-10971,"Na-arai Formation, Japan",pliocene_japan,"36N, 140E",Zanclean,Otodus,megalodon,,10,28,18,21.09,0.07,3,1,2,27.01,25.66,3.21
+CMM-V-10970,"Na-arai Formation, Japan",pliocene_japan,"36N, 140E",Zanclean,Otodus,megalodon,,10,28,18,20.53,0.09,3,1,2,29.5,28.15,5.7
+CMM-V-10968,"Na-arai Formation, Japan",pliocene_japan,"36N, 140E",Zanclean,Otodus,megalodon,,10,28,18,21.41,0.13,3,1,2,25.57,24.22,1.77
+CMM-V-10967,"Na-arai Formation, Japan",pliocene_japan,"36N, 140E",Zanclean,Otodus,megalodon,,10,28,18,21.15,0.15,3,1,2,26.72,25.37,2.92
+CMM-V-10967,"Na-arai Formation, Japan",pliocene_japan,"36N, 140E",Zanclean,Otodus,megalodon,,10,28,18,20.26,0.5,3,1,2,30.75,29.4,6.95
+CMM-V-10968,"Na-arai Formation, Japan",pliocene_japan,"36N, 140E",Zanclean,Otodus,megalodon,,10,28,18,21.41,0.22,3,1,2,25.53,24.18,1.73
+CMM-V-10554,"Yorktown Formation, North Carolina",pliocene_north_carolina,"37N, 77W ",Zanclean,Carcharias,taurus,Ecto,13,31,21,22.94,0.17,3,1,2,18.66,23.16,
+CMM-V-10512,"Yorktown Formation, North Carolina",pliocene_north_carolina,"37N, 77W ",Zanclean,Carcharhinus,sp.,Ecto,13,31,21,23.03,0.24,3,1,2,18.26,22.76,
+CMM-V-10553,"Yorktown Formation, North Carolina",pliocene_north_carolina,"37N, 77W ",Zanclean,Parotodus,benedini,Ecto,13,31,21,22.88,0.29,3,1,2,18.94,23.44,
+CMM-V-10487,"Pungo River Formation, North Carolina",pliocene_north_carolina,"36N, 77W ",Burdigalian,Carcharias,sp.,Ecto,12,28,20,22.8,0.17,3,1,2,19.28,23.78,
+CMM-V-10486,"Pungo River Formation, North Carolina",pliocene_north_carolina,"36N, 77W ",Burdigalian,Carcharias,taurus,Ecto,12,28,20,23.68,0.15,3,1,2,15.35,19.85,
+CMM-V-10493,"Pungo River Formation, North Carolina",pliocene_north_carolina,"36N, 77W ",Burdigalian,Carcharhinus,sp.,Ecto,12,28,20,21.96,0.11,3,1,2,23.08,27.58,
+CMM-V-10548,"Yorktown Formation, North Carolina",pliocene_north_carolina,"37N, 77W ",Zanclean,Mysticeti,Whale (ear bone),Endo,13,31,21,20.33,0.02,3,1,2,30.42,34.92,10.02
+CMM-V-10549,"Yorktown Formation, North Carolina",pliocene_north_carolina,"37N, 77W ",Zanclean,Mysticeti,Whale (ear bone),Endo,13,31,21,20.96,0.1,3,1,2,27.56,32.06,7.17
+CMM-V-10558,"Yorktown Formation, North Carolina",pliocene_north_carolina,"37N, 77W ",Zanclean,Mysticeti,Whale (ear bone),Endo,13,31,21,20.55,0.42,3,1,2,29.45,33.95,9.06
+CMM-V-10501,"Pungo River Formation, North Carolina",pliocene_north_carolina,"36N, 77W ",Burdigalian,Mysticeti,Whale (ear bone),Endo,12,28,20,20.26,0.31,3,1,2,30.71,35.21,7.06
+CMM-V-10555,"Yorktown Formation, North Carolina",pliocene_north_carolina,"37N, 77W ",Zanclean,Isurus,oxyrinchus,Meso,13,31,21,22.35,0.17,3,1,2,21.34,25.84,0.95
+CMM-V-10542,"Yorktown Formation, North Carolina",pliocene_north_carolina,"37N, 77W ",Zanclean,Isurus,oxyrinchus,Meso,13,31,21,21.82,0.08,2,1,2,23.71,28.21,3.32
+CMM-V-10542,"Yorktown Formation, North Carolina",pliocene_north_carolina,"37N, 77W ",Zanclean,Isurus,oxyrinchus,Meso,13,31,21,22.02,0.27,3,1,2,22.82,27.32,2.42
+CMM-V-10547,"Yorktown Formation, North Carolina",pliocene_north_carolina,"37N, 77W ",Zanclean,Carcharodon,carcharias,Meso,13,31,21,23.63,0.34,2,1,2,15.58,20.08,-4.82
+CMM-V-10547,"Yorktown Formation, North Carolina",pliocene_north_carolina,"37N, 77W ",Zanclean,Carcharodon,carcharias,Meso,13,31,21,23.13,0.06,3,1,2,17.83,22.33,-2.56
+CMM-V-10547,"Yorktown Formation, North Carolina",pliocene_north_carolina,"37N, 77W ",Zanclean,Carcharodon,carcharias,Meso,13,31,21,22.32,0.38,3,1,2,21.46,25.96,1.07
+CMM-V-10547,"Yorktown Formation, North Carolina",pliocene_north_carolina,"37N, 77W ",Zanclean,Carcharodon,carcharias,Meso,13,31,21,23.32,0.66,3,1,2,16.96,21.46,-3.44
+CMM-V-10547,"Yorktown Formation, North Carolina",pliocene_north_carolina,"37N, 77W ",Zanclean,Carcharodon,carcharias,Meso,13,31,21,22.74,0.16,3,1,2,19.56,24.06,-0.84
+CMM-V-10547,"Yorktown Formation, North Carolina",pliocene_north_carolina,"37N, 77W ",Zanclean,Carcharodon,carcharias,Meso,13,31,21,24.19,0.32,3,1,2,13.03,17.53,-7.36
+CMM-V-10547,"Yorktown Formation, North Carolina",pliocene_north_carolina,"37N, 77W ",Zanclean,Carcharodon,carcharias,Meso,13,31,21,21.39,0.41,2,1,2,25.64,30.14,5.24
+CMM-V-10556,"Yorktown Formation, North Carolina",pliocene_north_carolina,"37N, 77W ",Zanclean,Carcharodon,hastalis,Meso,13,31,21,20.87,0.26,3,1,2,27.97,32.47,7.58
+CMM-V-10500,"Pungo River Formation, North Carolina",pliocene_north_carolina,"36N, 77W ",Burdigalian,Carcharodon,hastalis,Meso,12,28,20,21.98,0.07,3,1,2,22.97,27.47,-0.68
+CMM-V-10506,"Yorktown Formation, North Carolina",pliocene_north_carolina,"37N, 77W ",Zanclean,Otodus,megalodon,,13,31,21,21.55,,1,1,2,24.92,29.42,4.52
+CMM-V-10507,"Yorktown Formation, North Carolina",pliocene_north_carolina,"37N, 77W ",Zanclean,Otodus,megalodon,,13,31,21,21.76,,1,1,2,23.96,28.46,3.57
+CMM-V-10505,"Yorktown Formation, North Carolina",pliocene_north_carolina,"37N, 77W ",Zanclean,Otodus,megalodon,,13,31,21,21.6,0.62,2,1,2,24.68,29.18,4.29
+CMM-V-10509,"Yorktown Formation, North Carolina",pliocene_north_carolina,"37N, 77W ",Zanclean,Otodus,megalodon,,13,31,21,21.71,0.03,2,1,2,24.19,28.69,3.8
+CMM-V-10508,"Yorktown Formation, North Carolina",pliocene_north_carolina,"37N, 77W ",Zanclean,Otodus,megalodon,,13,31,21,20.76,,1,1,2,28.47,32.97,8.07
+CMM-V-10510,"Yorktown Formation, North Carolina",pliocene_north_carolina,"37N, 77W ",Zanclean,Otodus,megalodon,,13,31,21,21.79,,1,1,2,23.84,28.34,3.45
+CMM-V-10490,"Pungo River Formation, North Carolina",pliocene_north_carolina,"36N, 77W ",Burdigalian,Otodus,chubutensis,,12,28,20,21.01,0.21,3,1,2,27.35,31.85,3.7
+CMM-V-10495,"Pungo River Formation, North Carolina",pliocene_north_carolina,"36N, 77W ",Burdigalian,Otodus,chubetensis,,12,28,20,22.04,0.15,3,1,2,22.71,27.21,-0.94
