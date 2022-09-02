@@ -3,7 +3,6 @@ library(colorspace)
 library(ggridges)
 theme_set(theme_minimal())
 source('./R/model_water_temperature.R')
-source('./R/plot.phosphate_model.R')
 # load the captive shark data -------------------------------------------------
 data <- read_csv(file = './data/data.csv') %>%
   filter(thermo == 'Meso') %>% 

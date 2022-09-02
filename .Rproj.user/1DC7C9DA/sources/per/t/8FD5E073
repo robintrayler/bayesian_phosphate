@@ -1,0 +1,27 @@
+{
+    "id": "8FD5E073",
+    "path": "~/Dropbox/bayesian_phosphate/R/07_endo_grouped_modeling.R",
+    "project_path": "R/07_endo_grouped_modeling.R",
+    "type": "r_source",
+    "hash": "1507636064",
+    "contents": "",
+    "dirty": false,
+    "created": 1661550589151.0,
+    "source_on_save": false,
+    "relative_order": 7,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "44,0",
+        "scrollLine": "24"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1661545817,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1661545817,
+    "read_only": false,
+    "read_only_alternatives": []
+}
