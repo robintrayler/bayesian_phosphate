@@ -1,9 +1,9 @@
 {
     "id": "B5AF3D9E",
-    "path": "~/Dropbox/bayesian_phosphate/R/08_summary_figure.R",
-    "project_path": "R/08_summary_figure.R",
+    "path": "~/Dropbox/bayesian_phosphate/R/09_summary_figure.R",
+    "project_path": "R/09_summary_figure.R",
     "type": "r_source",
-    "hash": "258799601",
+    "hash": "3421825524",
     "contents": "",
     "dirty": false,
     "created": 1661550589998.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "72,0",
-        "scrollLine": "53"
+        "cursorPosition": "138,0",
+        "scrollLine": "120"
     },
     "folds": "",
-    "lastKnownWriteTime": 1661550257,
+    "lastKnownWriteTime": 1662158092,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1661550257,
+    "last_content_update": 1662158092418,
     "read_only": false,
     "read_only_alternatives": []
 }
