@@ -2,23 +2,30 @@ library(colorspace)
 library(tidyverse)
 theme_set(theme_bw())
 
-source('./R/01_ecto_modeling.R')
-source('./R/02_mesotherm_modeling.R')
-source('./R/03_meg_modeling.R')
-source('./R/04_white_shark_modeling.R')
-source('./R/05_endo_modeling.R')
-source('./R/06_ecto_ungrouped_modeling.R')
-source('./R/07_endo_grouped_modeling.R')
-source('./R/08_chub_modeling.R')
+# source('./R/01_ecto_modeling.R')
+# source('./R/02_mesotherm_modeling.R')
+# source('./R/03_meg_modeling.R')
+# source('./R/04_white_shark_modeling.R')
+# source('./R/05_endo_modeling.R')
+# source('./R/06_ecto_ungrouped_modeling.R')
+# source('./R/07_endo_grouped_modeling.R')
+# source('./R/08_chub_modeling.R')
+# source('./R/09_otodus_ungrouped_modeling.R')
+# source('./R/10_carcharias_ungrouped_modeling.R')
+# source('./R/11_meso_ungrouped_modeling.R')
 
 ecto <- read_csv(file = './data/ecto_posterior.csv') %>% 
   mutate(thermo = 'ecto')
 meso <- read_csv(file = './data/meso_posterior.csv') %>% 
   mutate(thermo = 'meso')
+meso_ungrouped <- read_csv(file = './data/meso_ungrouped_posterior.csv') %>% 
+  mutate(thermo = 'meso_ungrouped')
 meg <- read_csv(file = './data/meg_posterior.csv') %>% 
   mutate(thermo = 'megalodon')
 white <- read_csv(file = './data/white_posterior.csv') %>% 
   mutate(thermo = 'white_shark')
+white_ungrouped <- read_csv(file = './data/carcharias_ungrouped_posterior.csv') %>% 
+  mutate(thermo = 'white_shark_ungrouped')
 endo_ungrouped <- read_csv(file = './data/endo_ungrouped_posterior.csv') %>% 
   mutate(thermo = 'endo_ungrouped')
 endo_grouped <- read_csv(file = './data/endo_grouped_posterior.csv') %>% 
@@ -27,7 +34,9 @@ ecto_ungrouped <- read_csv(file = './data/ecto_ungrouped_posterior.csv') %>%
   mutate(thermo = 'ecto_ungrouped')
 chub <- read_csv(file = './data/chubutensis_posterior.csv') %>% 
   mutate(thermo = 'chubutensis')
-burn <- 1000
+otodus_ungrouped <- read_csv(file = './data/otodus_ungrouped_posterior.csv') %>% 
+  mutate(thermo = 'otodus_ungrouped')
+burn <- 5000
 
 all <- rbind(ecto,
              meso, 
@@ -35,27 +44,12 @@ all <- rbind(ecto,
              white,
              endo_ungrouped,
              ecto_ungrouped,
+             white_ungrouped,
+             meso_ungrouped,
+             otodus_ungrouped,
              endo_grouped,
              chub)
 
-# pdf(file = 'model_summary.pdf', width = 6.5, height = 9.5)
-# 
-# all %>% 
-#   filter(!(thermo %in% c('endo_ungrouped', 'ecto_ungrouped'))) %>% 
-#   filter(iteration > burn) %>% 
-#   ggplot(mapping = aes(x = temperature,
-#                        fill = thermo,
-#                        group = thermo)) + 
-#   geom_density(alpha = 0.75,
-#                adjust = 2) + 
-#   facet_wrap(~group,
-#              scales = 'free_y',
-#              ncol = 1) + 
-#   scale_fill_discrete_sequential(palette = 'Sunset') + 
-#   theme(legend.position = 'top',
-#         axis.text.y = element_blank())
-# 
-# dev.off()
 
 all %>% 
   group_by(group, 
@@ -69,7 +63,11 @@ all %>%
 
 
 all <- all %>% 
-  filter(!(thermo %in% c('ecto_ungrouped', 'endo_ungrouped'))) %>% 
+  filter(!(thermo %in% c('ecto_ungrouped', 
+                         'endo_ungrouped',
+                         'meso_ungrouped',
+                         'otodus_ungrouped',
+                         'white_shark_ungrouped'))) %>% 
   mutate(age = case_when(
     group == "miocene_california" ~ 'Miocene', 
     group == "miocene_north_carolina" ~ 'Miocene', 
@@ -89,11 +87,11 @@ all <- all %>%
     group == "miocene_italy" ~ 'Malta')) %>% 
   mutate(age = factor(age, levels = c('Pliocene', 'Miocene'))) %>% 
   mutate(thermo = factor(thermo, levels = rev(c('megalodon', 
-                                            'chubutensis',
-                                            'white_shark',
-                                            'endo_grouped',
-                                            'meso',
-                                            'ecto'))))
+                                                'chubutensis',
+                                                'white_shark',
+                                                'endo_grouped',
+                                                'meso',
+                                                'ecto'))))
 
 
 labels <- c('white_shark' = expression(italic('C. carcharias')),
@@ -131,7 +129,7 @@ all %>%
         axis.title.y = element_blank(),
         strip.text = element_text(size = 10,
                                   color = 'black')) + 
- scale_color_discrete_sequential(palette = 'SunsetDark') + 
+  scale_color_discrete_sequential(palette = 'SunsetDark') + 
   xlab('Temperature (C)') + 
   xlim(10, 50) + 
   scale_y_discrete(labels = labels)
