@@ -62,6 +62,9 @@ all %>%
   write_csv(file = './data/all_model_summary.csv')
 
 
+
+
+
 all <- all %>% 
   filter(!(thermo %in% c('ecto_ungrouped', 
                          'endo_ungrouped',
@@ -134,4 +137,3 @@ all %>%
   xlim(10, 50) + 
   scale_y_discrete(labels = labels)
 dev.off()
-

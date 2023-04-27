@@ -44,4 +44,4 @@ results |>
 results |> 
   ggplot(mapping = aes(x = temperature)) + 
   geom_density(adjust = 2) + 
-  geom_vline(xintercept = c(21, 25))
+  geom_vline(xintercept = c(21, 25)) 
